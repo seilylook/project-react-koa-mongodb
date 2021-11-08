@@ -1,0 +1,16 @@
+{
+  "name": "project-react-koa-mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/seilylook/project-react-koa-mongodb.git",
+  "author": "seilylook <seilylook@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "koa": "^2.13.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-plugin-react": "^7.26.1"
+  }
+}
