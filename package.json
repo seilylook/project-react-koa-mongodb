@@ -6,10 +6,15 @@
   "author": "seilylook <seilylook@naver.com>",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
     "eslint-config-prettier": "^8.3.0",
+    "esm": "^3.2.25",
+    "joi": "^17.4.2",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
-    "koa-router": "^10.1.1"
+    "koa-router": "^10.1.1",
+    "mongoose": "^6.0.12"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
@@ -17,6 +22,6 @@
   },
   "scripts": {
     "start": "node src",
-    "start:dev": "nodemon --watch src/index.js"
+    "start:dev": "nodemon --watch src/ -r esm src/index.js"
   }
 }
