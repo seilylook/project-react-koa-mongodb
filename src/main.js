@@ -1,7 +1,7 @@
 require('dotenv').config();
 import Koa from 'koa';
 import Router from 'koa-router';
-import bodyParser from 'body-parser';
+import bodyParser from 'koa-bodyparser';
 import mongoose from 'mongoose';
 
 import api from './api';
