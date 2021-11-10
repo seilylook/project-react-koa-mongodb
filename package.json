@@ -21,7 +21,7 @@
     "eslint-plugin-react": "^7.26.1"
   },
   "scripts": {
-    "start": "node src",
+    "start": "node -r esm src",
     "start:dev": "nodemon --watch src/ -r esm src/index.js"
   }
 }
